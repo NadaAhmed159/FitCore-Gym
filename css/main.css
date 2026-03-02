@@ -1,0 +1,421 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+span,
+input ,
+textarea{
+  margin: 0;
+  padding: 0;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+.clear-fix {
+  clear: both;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.hero {
+  background-color: oklch(99.655% 0.00181 249.268);
+  padding: 48px 24px;
+}
+.hero .content {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 16px;
+}
+.hero .content h1 {
+  margin-bottom: 24px;
+  font-size: 60px;
+}
+.hero .content p {
+  margin-bottom: 32px;
+  font-size: 20px;
+  color: oklch(0.446 0.03 256.802);
+}
+.hero-img {
+  display: inline-block;
+  width: 32%;
+  vertical-align: middle;
+  padding: 48px;
+  margin: 0 48px;
+}
+.hero img {
+  width: 100%;
+  border-radius: 15px;
+}
+.hero button {
+  padding: 16px 28px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-family:
+    ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 18px;
+}
+.hero-btn1 {
+  background-color: black;
+  color: white;
+  margin-right: 16px;
+  border: 2px solid black;
+}
+.hero-btn2 {
+  background-color: white;
+  color: oklch(37.3% 0.034 259.733);
+  border: 2px solid oklch(0.872 0.01 258.338);
+}
+.why-choose-us {
+  margin-block: 48px;
+}
+.why-choose-us .header,
+.why-choose-us .card {
+  text-align: center;
+}
+.why-choose-us .header {
+  margin-bottom: 48px;
+}
+.why-choose-us .header h2 {
+  font-size: 36px;
+  margin-block: 24px;
+  padding-top: 24px;
+}
+.why-choose-us .header p {
+  font-size: 20px;
+  color: oklch(44.6% 0.03 256.802);
+}
+.why-choose-us .card1 {
+  background-color: oklch(93.2% 0.032 255.585);
+}
+.why-choose-us .card2 {
+  background-color: oklch(95% 0.052 163.051);
+}
+.why-choose-us .card3 {
+  background-color: oklch(94.6% 0.033 307.174);
+  height: 180px;
+}
+.benefit-cards {
+  margin-block: 35px;
+}
+.benefit-cards .card h3 {
+  margin-block: 24px 16px;
+  font-size: 20px;
+}
+.benefit-cards .card p {
+  color: oklch(37.3% 0.034 259.733);
+  font-size: 14px;
+}
+.card {
+  float: left;
+  width: 27%;
+  border-radius: 12px;
+  margin-inline: 12px;
+  padding: 36px 24px;
+}
+.outer {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  margin: auto;
+  border: 1px solid transparent;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  margin: 15px auto 0;
+  background-color: rgb(255, 255, 255);
+}
+.outer.in-1 {
+  background-color: oklch(54.6% 0.245 262.881);
+}
+.in-1 .inner,
+.in-3 .inner {
+  border-radius: 5px;
+}
+.outer.in-2 {
+  background-color: oklch(0.596 0.145 163.225);
+}
+.in-2 .inner {
+  border-radius: 50%;
+}
+.outer.in-3 {
+  background-color: oklch(0.558 0.288 302.321);
+}
+.more-benefits {
+  padding-block: 30px;
+}
+.more-benefits-img {
+  float: left;
+  width: 45%;
+  height: 340px;
+}
+.more-benefits img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.more-benefits .content {
+  float: right;
+  width: 50%;
+  margin-left: 30px;
+}
+.more-benefits .content h3 {
+  font-size: 30px;
+  margin-block: 4px 8px;
+}
+.more-benefits .benefit {
+  border-left: 5px solid black;
+  padding: 4px 24px;
+  margin-block: 20px;
+}
+.more-benefits .benefit h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.more-benefits .benefit p {
+  color: oklch(44.6% 0.03 256.802);
+}
+.testimonials {
+  background-color: oklch(0.985 0.002 247.839);
+  padding: 48px;
+}
+.testimonials .review.rev1 {
+  background-color: oklch(97% 0.014 254.604);
+  border: 1px solid oklch(88.2% 0.059 254.128);
+}
+.testimonials .review.rev2 {
+  background-color: oklch(97.9% 0.021 166.113);
+  border: 1px solid oklch(90.5% 0.093 164.15);
+}
+.testimonials .review.rev3 {
+  background-color: oklch(97.7% 0.014 308.299);
+  border: 1px solid oklch(90.2% 0.063 306.703);
+}
+.testimonials .header {
+  text-align: center;
+  margin-bottom: 48px;
+  padding: 24px 48px;
+}
+.testimonials .header h2 {
+  margin-bottom: 24px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.testimonials .header p {
+  font-size: 20px;
+  color: oklch(44.6% 0.03 256.802);
+}
+
+.reviews .review {
+  width: 25%;
+  padding: 32px 28px;
+  float: left;
+  margin-left: 36px;
+  border-radius: 12px;
+}
+.reviews .review p {
+  color: oklch(44.6% 0.03 256.802);
+}
+.reviews .review-head {
+  float: left;
+  padding: 8px;
+}
+.reviews .review-head h3 {
+  margin-bottom: 4px;
+}
+.reviews .rev-img {
+  width: 22%;
+  float: left;
+  margin-right: 12px;
+  margin-bottom: 16px;
+}
+.reviews .rev-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+.testimonials img {
+  width: 30%;
+}
+.statistics .stat {
+  float: left;
+  text-align: center;
+  width: 20%;
+  padding: 50px 24px;
+}
+.statistics .stat span {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.statistics .stat p {
+  color: oklch(44.6% 0.03 256.802);
+}
+.statistics {
+  background-color: oklch(96.8% 0.007 247.896);
+  border-radius: 15px;
+  text-align: center;
+  margin-block: 60px;
+}
+.membership-form {
+  padding: 80px 24px;
+}
+.membership-form .header {
+  margin-bottom: 48px;
+  text-align: center;
+}
+.membership-form .header h2 {
+  margin-bottom: 24px;
+  font-weight: 700;
+  font-size: 36px;
+}
+.membership-form .header p {
+  color: oklch(44.6% 0.03 256.802);
+  font-size: 20px;
+}
+.membership-form .container {
+  width: 60%;
+  margin: 0 auto;
+}
+.plan-reg-form {
+  background-color: oklch(0.985 0.002 247.839);
+  padding: 48px;
+  border-radius: 15px;
+}
+.plan-reg-form .field.fn-field {
+  float: left;
+  width: 49%;
+}
+.plan-reg-form .field.ln-field {
+  float: right;
+  width: 49%;
+}
+.plan-reg-form .name-field input{
+  width: 94%;
+}
+.plan-reg-form p {
+  text-align: center;
+  color: oklch(0.446 0.03 256.802);
+}
+.plan-reg-form label {
+  display: block;
+  margin-bottom: 12px;
+  color: oklch(0.373 0.034 259.733);
+}
+.plan-reg-form input,
+.plan-reg-form select,
+.plan-reg-form textarea {
+  border-radius: 8px;
+  border: solid 1px oklch(0.872 0.01 258.338);
+  padding: 16px 0 16px 24px;
+}
+.plan-reg-form select{
+  width: 100%;
+}
+.plan-reg-form input,
+.plan-reg-form textarea{
+  width: 97%;
+  
+}
+.plan-reg-form .field {
+  margin-bottom: 24px;
+}
+.plan-reg-form .field textarea {
+  resize: none;
+}
+
+.Submit-btn {
+  background-color: black;
+  color: white;
+  padding: 16px 32px;
+  margin-bottom: 24px;
+  border: solid 1px black;
+  border-radius: 8px;
+  width: 100%;
+}
+footer {
+  background-color: oklch(21% 0.034 264.665);
+  padding: 80px 24px;
+  color: oklch(0.707 0.022 261.325);
+}
+footer h2,
+footer h3,
+footer h4 {
+  color: white;
+}
+footer .info p {
+  font-size: 18px;
+}
+footer a {
+  text-decoration: none;
+}
+footer .info ul li {
+  float: left;
+  margin-right: 24px;
+  list-style: none;
+}
+.links {
+  border-bottom: solid 1px oklch(0.373 0.034 259.733);
+  padding-bottom: 48px;
+}
+footer .info {
+  width: 44%;
+  float: left;
+}
+footer .info h2 {
+  margin-bottom: 16px;
+}
+footer .info p {
+  margin-bottom: 24px;
+}
+footer .quick-links {
+  width: 25%;
+  float: left;
+  margin-inline: 32px;
+}
+footer .contact-info {
+  width: 25%;
+  float: left;
+}
+.quick-links h3 {
+  margin-bottom: 16px;
+}
+.quick-links li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.contact-info h3 {
+  margin-bottom: 16px;
+}
+.contact-info h4 {
+  margin-bottom: 4px;
+}
+.contact-info .con-info {
+  margin-bottom: 12px;
+}
+.copy-right {
+  margin-top: 32px;
+}
+.copy-right-links {
+  float: right;
+}
+.copy-right-links a {
+  margin-right: 24px;
+  color: oklch(0.551 0.027 264.364);
+}
+.copy-right p {
+  float: left;
+  color: oklch(0.551 0.027 264.364);
+}
