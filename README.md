@@ -41,10 +41,4 @@ This project focuses on practicing core web development fundamentals such as lay
 
 ---
 
-## 📷 Preview
-
-> <img width="1899" height="782" alt="image" src="https://github.com/user-attachments/assets/9b7c970c-f2c6-49b8-8254-edd572837883" />
-
----
-
 ⭐ If you like this project, feel free to star the repo!
